@@ -1,25 +1,67 @@
-:root { /*  Accede al elemento raiz del documento */
-    --texto: rgba(255,255,255, .7);
-    --blanco: #fff;
-    --input: #3A3B3C;
-    --input-hover: #4b4d4e;
-    --activo: #2D88FF;
-    --gris-claro: #B0B3B8;
-    --fondo-contenido: #242526;
+:root {
+  /*  Accede al elemento raiz del documento */
+  --texto: rgba(255, 255, 255, 0.7);
+  --blanco: #fff;
+  --input: #3a3b3c;
+  --input-hover: #4b4d4e;
+  --activo: #2d88ff;
+  --gris-claro: #b0b3b8;
+  --fondo-contenido: #242526;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* No se incluye el margen en el ancho/alto total */ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* No se incluye el margen en el ancho/alto total */
 }
 
-body{
-    background-color: #18191A;
+body {
+  background-color: #18191a;
+  color: var(--texto);
+}
+
+a {
+  color: var(--texto);
+  text-decoration: none;
+}
+
+
+/* ------------------------- */
+/* ------- HEADER ---------- */
+/* ------------------------- */
+header{
+    background-color: var(--fondo-contenido);
+}
+
+header .logo {
+    display: inline-block;
+}
+
+header .logo svg{
+    color: var(--blanco);
+    width: 35px;
+    height: 35px;
+}
+
+header .barra-busqueda{
+    position: relative;
+    width: 100%: 
+}
+
+header .barra-busqueda input{
+    width: 100%;
+    border: none;
+    background-color: var(--input);
+    color:var(--texto);
+    height: 40px;
+    border-radius: 100px;
+    padding: 0 20px 0 40px;
+}
+
+header .barra-busqueda .icono{
+    position: absolute;
+    top: 6px;
+    left: 15px;
     color: var(--texto);
-}
 
-a{
-    color: var(--texto);
-    text-decoration: none;
 }
