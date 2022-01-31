@@ -124,3 +124,59 @@ header .botones .perfil img {
   border-radius: 100px;
   margin-right: 5px;
 }
+
+
+/* ------------------------- */
+/* ------- ASIDE ---------- */
+/* ------------------------- */
+aside{
+    height: 100vh;
+    overflow: hidden;
+    padding-top: 68px;
+}
+
+
+/*  Aside Enlaces Rápidos */
+.enlaces-rapidos > nav a {
+    display: flex;
+    align-items: center;
+    color: var(--blanco);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.enlaces-rapidos > nav a:hover{
+    background-color: var(--input-hover);
+}
+
+.enlaces-rapidos .perfil img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.enlaces-rapidos .icono {
+    margin-right: 20px;
+}
+
+.enlaces-rapidos .icono svg{
+    width: 20px;
+    height: 20px;
+}
+
+/* Footer aside izquierdo*/
+footer{
+    margin: 40px 0;
+}
+
+footer nav a{
+    font-size: 14px;
+    margin-right: 7px;
+    color: var(--gris-claro);
+}
+
+footer nav a:hover{
+    text-decoration: underline;
+    color: var(--gris-claro);
+}
