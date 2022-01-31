@@ -1,0 +1,21 @@
+/* ------------------------- */
+/* ------- MEDIA QUERIES ---------- */
+/* ------------------------- */
+
+/*Dispositivos LG o más pequeño*/
+@media screen and (max-width: 1200px) {
+  header .menu a {
+    padding: 10px 20px;
+  }
+}
+
+/*Dispositivos MD o más pequeño*/
+@media screen and (max-width: 992px) {
+  header {
+    padding-top: 10px;
+  }
+
+  .menu {
+    margin-top: 10px;
+  }
+}
