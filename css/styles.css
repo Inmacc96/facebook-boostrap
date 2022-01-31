@@ -1,0 +1,25 @@
+:root { /*  Accede al elemento raiz del documento */
+    --texto: rgba(255,255,255, .7);
+    --blanco: #fff;
+    --input: #3A3B3C;
+    --input-hover: #4b4d4e;
+    --activo: #2D88FF;
+    --gris-claro: #B0B3B8;
+    --fondo-contenido: #242526;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* No se incluye el margen en el ancho/alto total */ 
+}
+
+body{
+    background-color: #18191A;
+    color: var(--texto);
+}
+
+a{
+    color: var(--texto);
+    text-decoration: none;
+}
