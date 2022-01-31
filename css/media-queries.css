@@ -19,12 +19,8 @@
     margin-top: 10px;
   }
 
-  aside {
-    padding-top: 130px;
-  }
-  
-  main{
-      padding-top: 130px;
+  .contenido-principal {
+    padding-top: 70px;
   }
 }
 
