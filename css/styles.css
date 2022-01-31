@@ -221,3 +221,59 @@ footer nav a:hover {
     border-radius: 100px;
     margin-right: 10px;
 }
+
+/* ------------------------- */
+/* -------- MAIN ----------- */
+/* ------------------------- */
+main {
+    padding-top: 70px;
+}
+
+main .publicar{
+    background-color: var(--fondo-contenido);
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+main .foto {
+    display: block;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+main .foto img{
+    width: 100%;
+}
+
+main .publicar .formulario input{
+    width: 100%;
+    border: none;
+    background-color: var(--input);
+    height: 40px;
+    border-radius: 100px;
+    padding: 0 20px;
+    color: var(--texto);
+}
+
+main .publicar .botones a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+main .publicar .botones a:hover{
+    background-color: var(--input-hover);
+    color: var(--texto);
+}
+
+main .publicar .botones a svg{
+    margin-right: 7px;
+}
