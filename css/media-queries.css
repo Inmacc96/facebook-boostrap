@@ -26,7 +26,8 @@
 
 /*Dispositivos SM o más pequeño*/
 @media screen and (max-width: 768px) {
-  .enlaces-rapidos {
+  .enlaces-rapidos,
+  .contactos {
     display: none;
   }
 }

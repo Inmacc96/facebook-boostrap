@@ -32,7 +32,7 @@ header {
   background-color: var(--fondo-contenido);
 }
 
-/* Logo y barra de búsqueda */
+/* --- Logo y barra de búsqueda --- */
 
 header .logo {
   display: inline-block;
@@ -94,7 +94,7 @@ header .menu .active:hover {
   color: var(--activo);
 }
 
-/*Botones*/
+/* --- Botones --- */
 header .botones a {
   background-color: var(--input);
   display: inline-flex;
@@ -125,58 +125,99 @@ header .botones .perfil img {
   margin-right: 5px;
 }
 
-
 /* ------------------------- */
 /* ------- ASIDE ---------- */
 /* ------------------------- */
-aside{
-    height: 100vh;
-    overflow: hidden;
-    padding-top: 68px;
+aside {
+  height: 100vh;
+  overflow: auto;
+  padding-top: 68px;
 }
 
-
-/*  Aside Enlaces Rápidos */
+/*  --- Aside Enlaces Rápidos --- */
 .enlaces-rapidos > nav a {
-    display: flex;
-    align-items: center;
-    color: var(--blanco);
-    padding: 10px;
-    border-radius: 3px;
+  display: flex;
+  align-items: center;
+  color: var(--blanco);
+  padding: 10px;
+  border-radius: 3px;
 }
 
-.enlaces-rapidos > nav a:hover{
-    background-color: var(--input-hover);
+.enlaces-rapidos > nav a:hover {
+  background-color: var(--input-hover);
 }
 
-.enlaces-rapidos .perfil img{
+.enlaces-rapidos .perfil img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.enlaces-rapidos .icono {
+  margin-right: 20px;
+}
+
+.enlaces-rapidos .icono svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* --- Footer aside izquierdo --- */
+footer {
+  margin: 40px 0;
+}
+
+footer nav a {
+  font-size: 14px;
+  margin-right: 7px;
+  color: var(--gris-claro);
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+  color: var(--gris-claro);
+}
+
+/* --- Contactos --- */
+.contactos .seccion {
+  margin-bottom: 20px;
+}
+
+.contactos .titulo {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--gris-claro);
+  margin-bottom: 10px;
+}
+
+.contactos .publicidad {
+  display: block;
+  max-height: 100px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.contactos .publicidad img {
+  width: 100%;
+}
+
+.contactos nav a {
+  display: flex;
+  align-items: center;
+  color: var(--blanco);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contactos nav a:hover {
+  background-color: var(--input-hover);
+}
+
+.contactos nav a img{
     width: 30px;
     height: 30px;
     border-radius: 100px;
     margin-right: 10px;
-}
-
-.enlaces-rapidos .icono {
-    margin-right: 20px;
-}
-
-.enlaces-rapidos .icono svg{
-    width: 20px;
-    height: 20px;
-}
-
-/* Footer aside izquierdo*/
-footer{
-    margin: 40px 0;
-}
-
-footer nav a{
-    font-size: 14px;
-    margin-right: 7px;
-    color: var(--gris-claro);
-}
-
-footer nav a:hover{
-    text-decoration: underline;
-    color: var(--gris-claro);
 }
